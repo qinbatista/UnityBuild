@@ -35,7 +35,7 @@ public class WebGLBuildEditor : MonoBehaviour
         EditorUserBuildSettings.SetPlatformSettings(
             "WebGL",
             "CodeOptimization",
-            "SizeWithLTO"
+            "DiskSizeLTO"//BuildTimes, RuntimeSpeed, RuntimeSpeedLTO, DiskSize, DiskSizeLTO
         );
 
         //player setting override
